@@ -4,18 +4,13 @@
      max-height: 100px;
     }
 
-    .row{
-        width: 100%;
-        margin: auto;
-    }
-
-    .row, #lezioni .row>.left, #lezioni .row>.right{
+    .row,
+     #lezioni .row>.left,
+     #lezioni .row>.right,
+     #steps .row>.left,
+     #steps .row>.central,
+     #steps .row>.right{
         width: 100%;
         float: none;
-    }
-
-    #steps .row>.left, #steps .row>.central, #steps .row>.right {
-    float: none;
-    width: 100%;
     }
 }
